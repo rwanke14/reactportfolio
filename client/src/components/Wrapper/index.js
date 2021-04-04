@@ -1,12 +1,8 @@
 import React from "react";
 import "./style.css";
 
-function Hero(props) {
-  return (
-    <div className="hero text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
-      {props.children}
-    </div>
-  );
+function Wrapper(props) {
+  return <main className="wrapper">{props.children}</main>;
 }
 
-export default Hero;
+export default Wrapper;

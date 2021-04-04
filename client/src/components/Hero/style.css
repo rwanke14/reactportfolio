@@ -1,0 +1,9 @@
+#hero {
+    background-image: url(./images/portartbackground.png);
+    width: auto;
+    height: 32rem;
+    background-size: cover;
+    animation-duration: 4s;
+    background-repeat: no-repeat;
+  
+  }
