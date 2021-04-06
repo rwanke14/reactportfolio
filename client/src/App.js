@@ -1,29 +1,32 @@
-
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
-import Navbar from "./components/Navbar";
+//import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Hero from "./components/Hero";
+import Navigation from "./components/Navbar";
+
+
 
 function App() {
   return (
-    <Router>
-    <div>
-      <Navbar />
+  
+      <div>
+        <Hero />
+        <Navigation />
         <Wrapper>
-        <Route exact path="/" component={About}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/skills" component={Skills}/>
-        <Route exact path="/portfolio" component={Portfolio}/>
-        <Route exact path="/contact" component={Contact}/>
+          <About />
+          <Skills />
+          <Portfolio />
+          <Contact />
         </Wrapper>
         <Footer />
-    </div>
-  </Router>
+      </div>
+
   );
 }
 
