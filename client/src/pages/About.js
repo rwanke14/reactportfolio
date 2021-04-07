@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import ProfileImg from "../components/ProfileImg";
+import "./css/about.css"
 
 function About() {
   return (
@@ -16,7 +17,7 @@ function About() {
               <ProfileImg backgroundImage="../components/ProfileImg/canvaprofile.img" />
             </Col>
             <Col size="lg-8">
-              <p class="lead">
+              <p className="aboutMeText">
                 Rachel is an asipring web developer who has worked in the
                 Washington, DC area for the past six years as an adminstrative
                 profession. As an admin professional she has built a solid
@@ -26,7 +27,7 @@ function About() {
                 achieved by the person who says, 'It can't be done.'"
               </p>
 
-              <p class="lead">
+              <p className="aboutMeText">
                 Rachel is currently taking a course with the George Washingon
                 University to build on her coding skills so she can change
                 careers. After having her son in 2018, she realized she wasn't

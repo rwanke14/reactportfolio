@@ -20,20 +20,20 @@ function ProfileImg() {
   </a>
   <a href="https://www.linkedin.com/in/rachel-wanke-038757b/"
     className="linkedIn">
-    <FontAwesomeIcon icon={["fab", "linkedIn"]} size="1x" />
+    <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x" />
   </a>
   <a href="https://www.pinterest.com/rkhlaw/_saved/"
     className="pinterest">
     <FontAwesomeIcon icon={["fab", "pinterest"]} size="1x" />
   </a>
   <a href="https://www.instagram.com/rkhlaw26/"
-    className="Instagram">
+    className="instagram">
     <FontAwesomeIcon icon={["fab", "instagram"]} size="1x" />
   </a>
-  {/* <a href="https://www.facebook.com/rachel.horne.393"
+  <a href="https://www.facebook.com/rachel.horne.393"
     className="facebook">
-    <FontAwesomeIcon icon={faFacebook} size="1x" />
-  </a> */}
+    <FontAwesomeIcon icon={["fab", "facebook"]} size="1x" />
+  </a>
   
   </div>
 //     <a href="https://www.linkedin.com/in/rachel-wanke-038757b/" className="" /a>

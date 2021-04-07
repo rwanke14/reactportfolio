@@ -4,3 +4,52 @@
     float: left;
     margin: 0px 0px 10px 0px;
   }
+  
+ a.github {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #0D2E5B;
+  }
+
+  a.facebook {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #0D2E5B;
+  }
+
+  a.pinterest{
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #0D2E5B;
+  }
+
+  a.instagram {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #0D2E5B;
+  }
+
+  a.linkedIn {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #0D2E5B;
+  }
+  
+  a:hover{
+    opacity: 0.7;
+  }
