@@ -11,6 +11,7 @@ import Hero from "./components/Hero";
 import Navigation from "./components/Navbar";
 import Row from "./components/Row";
 import Container from "./components/Container";
+import Divider from "./components/sectonDivider";
 
 function App() {
   return (
@@ -24,17 +25,24 @@ function App() {
           </Row>
         </Container>
 
+        <Divider />
+
         <Container>
           <Row>
             <Skills />
           </Row>
         </Container>
 
+        <Divider />
+
         <Container>
           <Row>
             <Portfolio />
           </Row>
         </Container>
+
+        <Divider />
+
         <Container>
           <Row>
             <Contact />
