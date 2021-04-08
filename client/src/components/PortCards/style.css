@@ -18,6 +18,8 @@
     align-items: flex-end;
     transition: 0.4s ease-out;
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    margin-right: 5%;
+    color: white;
   }
   .portStyle:hover {
     transform: translateY(20px);
@@ -85,7 +87,23 @@
     background: #1e90ff;
     color: #fff;
   }
-  
-  .portCard {
-    width: 60%;
+
+  h1{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    
   }
+  
+  div.info p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  a.btn {
+   background-color:  #0D2E5B;
+   border-color:  #0D2E5B;;
+   margin-right: 4%;
+  }
+  
+
+

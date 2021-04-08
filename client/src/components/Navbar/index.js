@@ -12,7 +12,7 @@ class Navigation extends React.Component {
 render() {
   
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg"  sticky="top">
       <Navbar.Brand className="brand" href="#home">Rachel Wanke</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

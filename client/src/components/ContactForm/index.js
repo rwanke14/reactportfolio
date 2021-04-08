@@ -2,20 +2,56 @@ import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import Container from "../Container";
 import Row from "../Row";
+import axios from "axios"
+import "./style.css"
 
 function ContactForm() {
-  const [name, setName] = useState();
-  const [email, setEmail] = useState();
-  const [message, setMessage] = useState();
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
   const [subject, setSubject] = useState();
+  const [submit, setSubmit] = useState();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name);
-    console.log(email);
-    console.log(subject);
-    console.log(message);
+   
+    let data = {name, email, message, subject}
+
+    setSubmit({
+        ...submit,
+        buttonText: "Sending..."
+    })
+
+    axios({
+        method: 'post',
+        url: 'http://localhost:3001/api/contact',
+        data: {
+          Name: name.value,
+          Email: email.value,
+          Subject: subject.value,
+          Message: message.value
+        }
+      }).then((res) => {
+          console.log(data)
+      });
+    
   };
+
+//   const resetForm = () => {
+//     setName(name == '')
+//     setEmail(email == '')
+//     setSubject(subject == '')
+//     setMessage(message == '')
+//     setSubmit({
+//         sent: false,
+//         buttonText: 'Submit',
+//         err: ''
+//     })
+
+
+
+
+
 
   return (
     <Form>
@@ -49,8 +85,7 @@ function ContactForm() {
          onChange={e => setMessage(e.target.value)} />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
-        Submit
+      <Button className="button" variant="primary" type="submit" onClick={handleSubmit}>Submit
       </Button>
     </Form>
     // <div>

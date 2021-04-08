@@ -5,6 +5,7 @@ import Container from "../components/Container";
 // import Col from "../components/Col";
 import FlipCard from "../components/FlipCard";
 import Row from "../components/Row";
+import Wrapper from "../components/Wrapper";
 import "./css/skills.css"
 
 
@@ -13,10 +14,14 @@ function Skills() {
     return(
     <div>
         <section className="skillSection">
+            
+            <Wrapper className="wrapper">
             <Container>
             <h1>Skills</h1>
-            </Container>
             <FlipCard />
+            </Container>
+            </Wrapper>
+            
             
         </section>
 

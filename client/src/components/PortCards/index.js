@@ -9,7 +9,7 @@ function PortCards() {
       <Row>
         <Col size="lg-4">
           <div className="portStyle">
-            <img src="./assets/images/lineseperator.png" />
+            <img src="./assets/images/portfolio/BBEnter.png" />
             <div className="info">
               <h1>Bechdel Billboard</h1>
               <p>

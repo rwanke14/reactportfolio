@@ -12,43 +12,53 @@ import Navigation from "./components/Navbar";
 import Row from "./components/Row";
 import Container from "./components/Container";
 import Divider from "./components/sectonDivider";
+import Col from "./components/Col";
 
 function App() {
   return (
-    <div>
+    <div className="main">
+      
       <Hero />
       <Navigation />
-      
-        <Container>
-          <Row>
-            <About />
-          </Row>
-        </Container>
+      <Container>
+      <Row>
+        <Col size="lg-12">
+          <Container>
+            <Row>
+              <About />
+              <Divider className="divider"/>
+            </Row>
+          </Container>
+        </Col>
 
-        <Divider />
+        <Col size="lg-12">
+          <Container>
+            <Row>
+              <Skills />
+              <Divider className="divider"/>
+            </Row>
+          </Container>
+        </Col>
 
-        <Container>
-          <Row>
-            <Skills />
-          </Row>
-        </Container>
+        <Col size="lg-12">
+          <Container>
+            <Row>
+              <Portfolio />
+              <Divider className="divider"/>
+            </Row>
+          </Container>
+        </Col>
 
-        <Divider />
-
-        <Container>
-          <Row>
-            <Portfolio />
-          </Row>
-        </Container>
-
-        <Divider />
-
-        <Container>
-          <Row>
-            <Contact />
-          </Row>
-        </Container>
-      
+        <Col size="lg-12">
+          <Container>
+            <Row>
+              <Contact />
+              
+            </Row>
+          </Container>
+        </Col>
+      </Row>
+      </Container>
       <Footer />
     </div>
   );

@@ -9,16 +9,16 @@ import Wrapper from "../components/Wrapper";
 
 function Portfolio() {
   return (
-    <div>
+    
       <section className="portfolio">
-        <Wrapper>
+        <Wrapper className="wrapper">
         <Container>
           <h1>Portfolio</h1>
           <PortCards />
         </Container>
         </Wrapper>
       </section>
-    </div>
+    
   );
 }
 

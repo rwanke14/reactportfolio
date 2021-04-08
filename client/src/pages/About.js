@@ -5,17 +5,19 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import ProfileImg from "../components/ProfileImg";
 import "./css/about.css"
+import Divider from "../components/sectonDivider";
 
 function About() {
   return (
-    <div>
+    
       <section className="about">
-        <Container>
+        <Container className="aboutCon">
           <h1>About Me</h1>
           <Row>
             <Col size="lg-4">
               <ProfileImg backgroundImage="../components/ProfileImg/canvaprofile.img" />
             </Col>
+            
             <Col size="lg-8">
               <p className="aboutMeText">
                 Rachel is an asipring web developer who has worked in the
@@ -40,8 +42,10 @@ function About() {
             </Col>
           </Row>
         </Container>
+       
       </section>
-    </div>
+      
+    
   );
 }
 
