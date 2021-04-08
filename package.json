@@ -21,6 +21,9 @@
     },
     "dependencies": {
         "bootstrap": "^4.6.0",
+        "cors": "^2.8.5",
+        "emailjs": "^3.4.0",
+        "emailjs-com": "^2.6.4",
         "express": "^4.16.3",
         "if-env": "^1.0.4",
         "moving-letters": "^1.0.1",

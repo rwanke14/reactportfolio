@@ -1,8 +1,8 @@
-section.hero.d-flex.flex-column.align-items-center.justify-content-center {
+section.hero {
     /* background-image: url(./portartbackground.png); */
     width: auto;
-    height: 20rem;
-    ;
+    height: 32rem;
+    background-size: cover;
     animation-duration: 4s;
     background-repeat: no-repeat;
     

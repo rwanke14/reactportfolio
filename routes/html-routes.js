@@ -11,9 +11,9 @@ module.exports = (app) => {
     //     res.sendFile(path.join(__dirname, '../client/public/index.html'))
     // );
 
-    // app.get('/contact', (req, res) =>
-    //     res.sendFile(path.join(__dirname, './client/public/contact.html'))
-    // );
+    app.get('/contact', (req, res) =>
+        res.sendFile(path.join(__dirname, './client/public/contact.html'))
+    );
 
     // app.get('/portfolio', (req, res) =>
     //     res.sendFile(path.join(__dirname, './client/public/portfolio.html'))
