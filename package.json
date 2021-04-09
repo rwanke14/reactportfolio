@@ -1,32 +1,36 @@
 {
-    "name": "mern",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-        "start:prod": "node server.js",
-        "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-        "client": "cd client && npm run start",
-        "install": "cd client && npm install",
-        "build": "cd client && npm run build",
-        "heroku-postbuild": "npm run build",
-        "seed": "node scripts/seedDB.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "concurrently": "^4.1.0",
-        "nodemon": "^1.18.7"
-    },
-    "dependencies": {
-        "bootstrap": "^4.6.0",
-        "cors": "^2.8.5",
-        "emailjs": "^3.4.0",
-        "emailjs-com": "^2.6.4",
-        "express": "^4.16.3",
-        "if-env": "^1.0.4",
-        "moving-letters": "^1.0.1",
-        "nodemailer": "^6.5.0"
-    }
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "homepage": "https://rwanke14.github.io/reactportfolio",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
+    "seed": "node scripts/seedDB.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "cors": "^2.8.5",
+    "emailjs": "^3.4.0",
+    "emailjs-com": "^2.6.4",
+    "express": "^4.16.3",
+    "gh-pages": "^3.1.0",
+    "if-env": "^1.0.4",
+    "moving-letters": "^1.0.1",
+    "nodemailer": "^6.5.0"
+  }
 }
