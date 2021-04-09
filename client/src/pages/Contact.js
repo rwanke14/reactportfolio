@@ -13,7 +13,7 @@ library.add(fab);
 function Contact() {
   return (
 
-      <section className="contact">
+      <section id="contact" className="contact">
         <Container>
           <h1>Contact</h1>
         </Container>

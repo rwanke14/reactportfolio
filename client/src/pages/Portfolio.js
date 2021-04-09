@@ -10,7 +10,7 @@ import Wrapper from "../components/Wrapper";
 function Portfolio() {
   return (
     
-      <section className="portfolio">
+      <section id="portfolio" className="portfolio">
         <Wrapper className="wrapper">
         <Container>
           <h1>Portfolio</h1>

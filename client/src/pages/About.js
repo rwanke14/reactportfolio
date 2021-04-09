@@ -10,7 +10,7 @@ import Divider from "../components/sectonDivider";
 function About() {
   return (
     
-      <section className="about">
+      <section id="about" className="about">
         <Container className="aboutCon">
           <h1>About Me</h1>
           <Row>

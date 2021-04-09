@@ -1,5 +1,5 @@
 import React from "react";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
@@ -13,52 +13,59 @@ import Row from "./components/Row";
 import Container from "./components/Container";
 import Divider from "./components/sectonDivider";
 import Col from "./components/Col";
+import Switch from "react-bootstrap/esm/Switch";
 
 function App() {
   return (
     <div className="main">
-      
-      <Hero />
-      <Navigation />
-      <Container>
-      <Row>
-        <Col size="lg-12">
-          <Container>
-            <Row>
-              <About />
-              <Divider className="divider"/>
-            </Row>
-          </Container>
-        </Col>
+      <Router>
+        <Hero />
+        <Navigation />
+        <Switch>
+        <Container>
+          <Row>
+            <Col size="lg-12">
+              <Container>
+                <Row>
+                  {/* <Route path="/about" component={About}/> */}
+                  <About title="about" dark={true} />
+                  <Divider className="divider" />
+                </Row>
+              </Container>
+            </Col>
 
-        <Col size="lg-12">
-          <Container>
-            <Row>
-              <Skills />
-              <Divider className="divider"/>
-            </Row>
-          </Container>
-        </Col>
+            <Col size="lg-12">
+              <Container>
+                <Row>
+                {/* <Route path="/skills" component={Skills}/> */}
+                  <Skills title="skills" dark={true} />
+                  <Divider className="divider" />
+                </Row>
+              </Container>
+            </Col>
 
-        <Col size="lg-12">
-          <Container>
-            <Row>
-              <Portfolio />
-              <Divider className="divider"/>
-            </Row>
-          </Container>
-        </Col>
+            <Col size="lg-12">
+              <Container>
+                <Row>
+                {/* <Route path="/portfolio" component={Portfolio}/> */}
+                  <Portfolio title="portfolio" dark={true} />
+                  <Divider className="divider" />
+                </Row>
+              </Container>
+            </Col>
 
-        <Col size="lg-12">
-          <Container>
-            <Row>
-              <Contact />
-              
-            </Row>
-          </Container>
-        </Col>
-      </Row>
-      </Container>
+            <Col size="lg-12">
+              <Container>
+                <Row>
+                {/* <Route path="/contact" component={Contact}/> */}
+                  <Contact title="contact" dark={true} />
+                </Row>
+              </Container>
+            </Col>
+          </Row>
+        </Container>
+        </Switch>
+      </Router>
       <Footer />
     </div>
   );

@@ -1,35 +1,81 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar, Nav } from "react-bootstrap";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-import Scroll from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
+//import Scroll from "react-scroll";
 
 class Navigation extends React.Component {
-  // constructor (props){
-  //   super(props);
-  // }
 
-  render() {
+
+  constructor (props){
+    super(props);
+  }
+
+
+
+   render() {
     return (
-      <Navbar expand="lg" sticky="top">
-        <Navbar.Brand className="brand" href="#home">
+      <Navbar expand="lg" sticky="top" >
+        <Navbar.Brand className="brand" to="/">
           Rachel Wanke
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav>
-            <Nav.Link className="nav-item" href="#about">
+          <Nav className="smooth-scroll">
+            <Link
+              className="nav-link"
+              // onClick={this.handleScroll}
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              exact= 'true'
+            >
               About
-            </Nav.Link>
-            <Nav.Link className="nav-item" href="#skills">
+            </Link>
+            <Link
+              className="nav-link"
+              // onClick={this.handleScroll}
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              exact= 'true'
+            >
               Skills
-            </Nav.Link>
-            <Nav.Link className="nav-item" href="#portfolio">
+            </Link>
+            <Link
+              className="nav-link"
+              // onClick={this.handleScroll}
+              activeClass="active"
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              exact= 'true'
+            >
               Portfolio
-            </Nav.Link>
-            <Nav.Link className="nav-item" href="#contact">
+            </Link>
+            <Link
+              className="nav-link"
+              // onClick={this.handleScroll}
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              exact= 'true'
+            >
               Contact
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

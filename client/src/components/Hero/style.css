@@ -5,7 +5,7 @@ section.hero {
     background-size: cover;
     animation-duration: 4s;
     background-repeat: no-repeat;
-    
+    margin:0;
   
   }
 

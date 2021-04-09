@@ -60,6 +60,10 @@ nav.navbar.navbar-expand-lg.navbar-brand {
   text-align: center;
 }
 
+a.nav-link.active{
+  color: lightblue
+}
+
 .navbar-nav {
   color: #fff;
   font-family: "Montserrat", sans-serif;

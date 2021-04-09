@@ -13,7 +13,7 @@ import "./css/skills.css"
 function Skills() {
     return(
     <div>
-        <section className="skillSection">
+        <section id="skills" className="skillSection">
             
             <Wrapper className="wrapper">
             <Container>
