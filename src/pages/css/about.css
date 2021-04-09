@@ -1,0 +1,24 @@
+section.about {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-family: 'Roboto Slab', serif;
+    color: #0D2E5B;
+    margin-right: 0;
+    width: 200%;
+    
+  }
+
+
+
+  p.aboutMeText {
+    font-family: 'Montserrat', sans-serif;
+    color: #0D2E5B;
+    width: auto;
+  }
+
+  h1{
+    margin-bottom: 2%;
+  }
+

@@ -1,0 +1,35 @@
+section.portfolio.wrapper {
+  margin-bottom: 15%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 10%;
+  font-family: "Roboto Slab", serif;
+  color: #0d2e5b;
+  margin-right: 0;
+  width: 200%;
+}
+
+section{
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+h1 {
+  margin-bottom: 4%;
+  font-family: "Roboto Slab", serif;
+  color: #0d2e5b;
+ 
+}
+
+.row{
+  margin-top: 4%;
+}
+
+main.wrapper{
+  width: 100%;
+  margin-top: 5%;
+}
+
+div.row{
+  width: 102%;
+}

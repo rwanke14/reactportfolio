@@ -1,0 +1,82 @@
+.skills {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+  }
+
+  .row {
+      width: 800px;
+  }
+  
+  .skills:hover .skill-front {
+    transform: rotateX(-180deg);
+  }
+  
+  .skills:hover .skill-back {
+    transform: rotateX(0deg);
+  }
+  
+  .skill-front {
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-image: url(./purplevector.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+    text-align: center;
+  }
+  
+  .skill-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(./skillbackground.png);
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .skill-front h2 {
+    margin: 50% auto 10% auto;
+    font-size: 26px;
+  }
+  
+  .skill-back h2 {
+    margin: 20% auto 10% auto;
+    font-size: 26px;
+  }
+  
+  .skill-back h2 span {
+    font-size: 10px;
+  }
+  
+  .skill-back .skill-front a {
+    height: 20px;
+    width: 20px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 20px;
+  }
+  
+  .skill-back a:hover {
+    color: #000000;
+    background-color: #fff;
+  }

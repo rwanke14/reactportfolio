@@ -1,0 +1,10 @@
+.footer {
+  background-color: #0d2e5b;
+  color: #fff;
+  font-family: "Rock Salt", cursive;
+  text-align: center;
+  margin: auto;
+  /* width: 50%; */
+  padding: 10px;
+  font-size: 10%;
+}

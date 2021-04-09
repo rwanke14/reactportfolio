@@ -1,0 +1,23 @@
+section.hero {
+    /* background-image: url(./portartbackground.png); */
+    width: auto;
+    height: 32rem;
+    background-size: cover;
+    animation-duration: 4s;
+    background-repeat: no-repeat;
+    margin:0;
+  
+  }
+
+  .ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+    color: whitesmoke;
+    font-family: 'Rock Salt', cursive;
+  }
+  
+  .ml4 {
+    font-weight: 900;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+  }

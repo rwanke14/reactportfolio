@@ -1,0 +1,28 @@
+section.skillSection.wrapper {
+  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 10%;
+  font-family: 'Roboto Slab', serif;
+  color: #0D2E5B;
+  margin-right: 0;
+  width: 200%;
+  }
+
+  section{
+    margin-bottom: 5%;
+  }
+
+  main.wrapper{
+    margin-bottom: 5%;
+  }
+
+  .skillSection {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  h1{
+    margin-bottom: 2%;
+  }
