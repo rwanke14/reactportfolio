@@ -1,11 +1,11 @@
 import React from "react";
-
+import Line from "./lineseperator.png"
 import "./style.css";
 
 function Divider() {
   return (
     <section className="center">
-      <img className="lineDivider" src="./assets/images/lineseperator.png" />
+      <img className="lineDivider" src={Line} />
     </section>
   );
 }

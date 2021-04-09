@@ -2,6 +2,12 @@ import React from "react";
 import Col from "../Col";
 import Row from "../Row";
 import "./style.css";
+import Billboard from "./images/BBEnter.png"
+import Burger from "./images/burgerapp.png"
+import Tarot from "./images/tarotcardsite.png"
+import Weather from "./images/weatherdashboard.png"
+import Password from "./images/passwordgenerator.png"
+import Profile from "./images/profilegenerator.png"
 
 function PortCards() {
   return (
@@ -9,7 +15,7 @@ function PortCards() {
       <Row>
         <Col size="lg-4">
           <div className="portStyle">
-            <img src="./assets/images/portfolio/BBEnter.png" />
+            <img src={Billboard} />
             <div className="info">
               <h1>Bechdel Billboard</h1>
               <p>
@@ -37,7 +43,7 @@ function PortCards() {
         </Col>
         <Col size="lg-4">
           <div className="portStyle">
-            <img src="./assets/images/portfolio/tarotcardsite.png" />
+            <img src={Tarot} />
             <div className="info">
               <h1>Tarot Card Website</h1>
               <p>Basic tarot card website for new and experienced users.</p>
@@ -62,7 +68,7 @@ function PortCards() {
         </Col>
         <Col size="lg-4">
           <div className="portStyle">
-            <img src="./assets/images/portfolio/burgerapp.png" />
+            <img src={Burger} />
             <div className="info">
               <h1>Burger Database Application</h1>
               <p>
@@ -94,7 +100,7 @@ function PortCards() {
       <Row>
         <Col size="lg-4">
           <div className="portStyle">
-            <img src="./assets/images/portfolio/weatherdashboard.png" />
+            <img src={Weather} />
             <div className="info">
               <h1>Weather Dashboard</h1>
               <p>Basic weather dashboard using OpenWeatherMap API</p>
@@ -119,7 +125,7 @@ function PortCards() {
         </Col>
         <Col size="lg-4">
           <div className="portStyle">
-            <img src="./assets/images/portfolio/passwordgenerator.png" />
+            <img src={Password} />
             <div className="info">
               <h1>Password Generator</h1>
               <p>Basic password generator using alerts.</p>
@@ -144,7 +150,7 @@ function PortCards() {
         </Col>
         <Col size="lg-4">
           <div className="portStyle">
-            <img src="./assets/images/portfolio/profilegenerator.png" />
+            <img src={Profile} />
             <div className="info">
               <h1>Team Profile Generator</h1>
               <p>

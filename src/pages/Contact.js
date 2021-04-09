@@ -8,6 +8,7 @@ import Col from "../components/Col";
 import "./css/contact.css";
 import ContactForm from "../components/ContactForm";
 
+
 library.add(fab);
 
 function Contact() {

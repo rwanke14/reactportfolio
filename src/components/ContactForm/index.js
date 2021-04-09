@@ -3,7 +3,9 @@ import { Form, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import "./style.css";
 
+
 function ContactForm() {
+
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -22,9 +24,10 @@ function ContactForm() {
           console.log(error.text);
         }
       );
-
-      e.target.reset()
+     e.target.reset()
   }
+
+
 
   return (
 
