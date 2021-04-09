@@ -1,3 +1,101 @@
+# Empolyee Directory
+
+### Version 1.0
+
+<br>
+
+## License:
+
+<br>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<br>
+
+## Description
+
+This application is built React to create a employee directory that imports a list of employees into a table that can be filtered and sorted by clicking the column headers at the top of the table. In order to render some employees for the application it uses an API to grab a randomized employee list of 20 employees at a time when the page loads. The application is deployed using GitHub Pages.
+
+<br>
+
+## Link to application:
+
+https://rwanke14.github.io/reactportfolio/
+
+<br>
+
+## Link to repository:
+
+https://github.com/rwanke14/reactportfolio
+
+<br>
+
+## Screenshots of Application:
+
+<br>
+
+![Top Panel](./images/topofpage.png)
+
+<br>
+
+![About Me](./images/aboutme.png)
+
+<br>
+
+![Skills Card](./images/skillscards.png)
+![Skills Card Flipped](./images/skillscardflipped.png)
+
+<br>
+
+![Portfolio](./images/portfolio.png)
+
+<br>
+
+![Contact](./images/contactme.png)
+
+<br>
+
+## Additional sources:
+
+Used sources from the internet for React tutorials on working with filters and sorting arrays using React props.
+
+Also worked with my study group to better understand how to apply what we learned in class to this readme. Note: Some code may look similar since we generally come out these thinking in the same ways. 
+
+Feedback, brainstorming, and general support to study group:
+
+        1. Young Ji Kim - https://github.com/youjmi
+        2. Amir Ashtiany - https://github.com/Alexfit4
+        3. Johnnie Simpson - https://github.com/balokdecoy
+        5. Frankie Rosado - https://github.com/Franciscorosado09
+
+
+## Installation and Instructions
+
+        1. npm run build
+        2. npm start
+<br>
+
+## Requirements
+
+        1. Install Dependencies:
+
+            npm install:
+                moving-letters
+                bootstrap
+                gh-pages
+                react
+                react-dom
+                react-scripts
+                react-scripts
+                react-scroll
+                @fortawesome/fontawesome-svg-core
+                @fortawesome/free-brands-svg-icons
+                @fortawesome/react-fontawesome
+                emailjs
+                emailjs-com
+
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
