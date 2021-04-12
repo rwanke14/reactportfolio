@@ -21,9 +21,9 @@ class Navigation extends React.Component {
         <Navbar.Brand className="brand" to="/">
           Rachel Wanke
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="smooth-scroll">
+          <Nav className="mr-auto smooth-scroll">
             <Link
               className="nav-link"
               // onClick={this.handleScroll}
