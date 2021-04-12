@@ -17,11 +17,11 @@ class Navigation extends React.Component {
 
    render() {
     return (
-      <Navbar expand="lg" sticky="top" >
+      <Navbar expand="lg" variant="dark" sticky="top" >
         <Navbar.Brand className="brand" to="/">
           Rachel Wanke
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto smooth-scroll">
             <Link

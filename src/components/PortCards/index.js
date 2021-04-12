@@ -13,7 +13,7 @@ function PortCards() {
   return (
     <div>
       <Row>
-        <Col size="lg-4">
+        <Col size="lg-6">
           <div className="portStyle">
             <img src={Billboard} />
             <div className="info">
