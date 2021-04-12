@@ -66,6 +66,8 @@
   }
   .portStyle .info h1 {
     margin: 0px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
   }
   .portStyle .info p {
     letter-spacing: 1px;
@@ -94,7 +96,7 @@
     
   }
   
-  div.info p {
+  div.info p a {
     color: white;
     font-family: 'Montserrat', sans-serif;
   }
