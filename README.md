@@ -1,4 +1,4 @@
-# Empolyee Directory
+# React Portfolio
 
 ### Version 1.0
 
