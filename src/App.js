@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import {Container} from "react-bootstrap"
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
@@ -8,7 +9,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navbar";
 import Row from "./components/Row";
-import Container from "./components/Container";
+// import Container from "./components/Container";
 import Divider from "./components/sectonDivider";
 import Col from "./components/Col";
 import Switch from "react-bootstrap/esm/Switch";

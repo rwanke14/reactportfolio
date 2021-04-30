@@ -57,3 +57,12 @@
   .image{
    margin-right: 20px;
   }
+
+  a.resume{
+    padding: 6px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #0D2E5B;
+  }
