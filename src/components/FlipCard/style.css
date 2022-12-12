@@ -10,6 +10,12 @@
     transition: 0.5s;
   }
 
+  @media (max-width: 991px) {
+    .skills {
+      margin-bottom: 15px;
+    }
+  }
+
   .row {
       width: 800px;
   }

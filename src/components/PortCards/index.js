@@ -16,7 +16,7 @@ function PortCards() {
   return (
     <div>
       <Row>
-      <Col size="lg-4">
+      <Col size="lg-4 sm-6">
           <div className="portStyle">
             <img src={mindflo} />
             <div className="info">
@@ -42,7 +42,7 @@ function PortCards() {
             </div>
           </div>
         </Col>
-        <Col size="lg-4">
+        <Col size="lg-4 sm-6">
           <div className="portStyle">
             <img src={Billboard} />
             <div className="info">
@@ -71,7 +71,7 @@ function PortCards() {
             </div>
           </div>
         </Col>
-        <Col size="lg-4">
+        <Col size="lg-4 sm-6">
           <div className="portStyle">
             <img src={Tarot} />
             <div className="info">
@@ -98,11 +98,11 @@ function PortCards() {
           </div>
         </Col>
 
-      </Row>
+
       {/* <br />
       <br /> */}
-      <Row>
-      <Col size="lg-4">
+
+      <Col size="lg-4 sm-6">
           <div className="portStyle">
             <img src={Directory} />
             <div className="info">
@@ -130,7 +130,7 @@ function PortCards() {
             </div>
           </div>
         </Col>
-        <Col size="lg-4">
+        <Col size="lg-4 sm-6">
           <div className="portStyle">
             <img src={Burger} />
             <div className="info">
@@ -159,7 +159,7 @@ function PortCards() {
             </div>
           </div>
         </Col>
-        <Col size="lg-4">
+        <Col size="lg-4 sm-6">
           <div className="portStyle">
             <img src={Budget} />
             <div className="info">
@@ -188,11 +188,11 @@ function PortCards() {
           </div>
         </Col>
 
-      </Row>
+
       {/* <br />
       <br /> */}
-      <Row>
-        <Col size="lg-4">
+
+        <Col size="lg-4 sm-6">
           <div className="portStyle">
             <img src={Weather} />
             <div className="info">
@@ -218,7 +218,7 @@ function PortCards() {
             </div>
           </div>
         </Col>
-        <Col size="lg-4">
+        <Col size="lg-4 sm-6">
           <div className="portStyle">
             <img src={Password} />
             <div className="info">
@@ -244,7 +244,7 @@ function PortCards() {
             </div>
           </div>
         </Col>
-        <Col size="lg-4">
+        <Col size="lg-4 sm-6">
           <div className="portStyle">
             <img src={Profile} />
             <div className="info">

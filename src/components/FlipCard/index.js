@@ -9,7 +9,7 @@ function FlipCard() {
     <div>
       
         <Row className="row">
-          <Col size="lg-6">
+          <Col size="lg-4">
           <div className="skills">
             <div className="skill-front">
               <h2>Front End Skills</h2>
@@ -18,18 +18,20 @@ function FlipCard() {
             <div className="skill-back">
               <h2>
                 Front End Skills</h2>
-                <br/>
-                
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>jQuery</p>
+
                 <p>React</p>
+                <p>Next.js</p>
+                <p>JavaScript</p>
+                <p>Jekyll</p>
+                <p>Ruby</p>
+                <p>HTML</p>
+                <p>CSS/SCSS</p>
+                <p>jQuery</p>
 
               </div>
             </div>
             </Col>
-            <Col size="lg-6">
+            <Col size="lg-4">
             <div className="skills">
               <div className="skill-front">
                 <h2>Back End Skills</h2>
@@ -45,6 +47,23 @@ function FlipCard() {
                 <p>Mongoose</p>
                 <p>Node.js</p>
                 <p>Express</p>
+              </div>
+            </div>
+
+            </Col>
+            <Col size="lg-4">
+            <div className="skills">
+              <div className="skill-front">
+                <h2>Content Management Systems</h2>
+                <h6>(Flip Over)</h6>
+
+              </div>
+              <div className="skill-back">
+                <h2>Content Management</h2>
+                <br/>
+                <p>Contentful</p>
+                <p>WordPress</p>
+                <p>iMIS Database</p>
               </div>
             </div>
 
